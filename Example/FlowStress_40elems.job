@@ -21,7 +21,7 @@ default    ,
 ** m (default) or mm 
 default,
 *FAB0 (Abaqus INP file for Wamit transform)
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\WAMIT\VolturnUS-S.inp
+D:\Example\WAMIT\VolturnUS-S.inp
 *A2W (path for ABA2WAMIT.exe) 
 C:\Program Files\Common Files\FlowStress\ABA2WAMIT\ABA2WAMIT.exe
 ************* Keywords used in all modules*****************
@@ -103,22 +103,22 @@ ELSET40-Pontoon-SideCol, 0.2
 	 5, 876034, 876033
 ***********************************Path**************************************	
 *FMOR (File path for OpenFAST MoorDyn DAT file)
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_MoorDyn.dat
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_MoorDyn.dat
 *FOP (file for OpenFAST OUT files)
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi1.out
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi2.out
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi3.out
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi1.out
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi2.out
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi3.out
 *FHYD (File for OpenFAST Hydrodyn file)
 ** If wave direction is same in all cases, you can assign single data line)
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn1.dat
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn2.dat
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn3.dat
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn1.dat
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn2.dat
+D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn3.dat
 *FAB1 (Abaqus INP file for stress analysis)
 ** This Abaqus INP file is reference file, so it must not include HISTORY part but only MODEL part.
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\Abaqus\FEA_model.inp
+D:\Example\Abaqus\FEA_model.inp
 *DWAM (Path for Wamit files)
 **Wamit input and output files should be in a same folder
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\Wamit
+D:\Example\Wamit
 *DFLO (Path where FLOWStress generates results)
-D:\02_Sungjun\02-project\2-FLS\FLOWStress-GITHUB\FLOWStress\Example\Results\40elems
+D:\Example\Results\40elems
 *****************************************************************************
