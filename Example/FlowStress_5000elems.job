@@ -19,7 +19,7 @@ default    ,
 0.01, 3.0, 0.05
 *UNA0 (unit system in Abaqus model for Wamit transform) 
 ** m (default) or mm 
-default,
+mm,
 *FAB0 (Abaqus INP file for Wamit transform)
 D:\Example\WAMIT\VolturnUS-S.inp
 *A2W (path for ABA2WAMIT.exe) 
