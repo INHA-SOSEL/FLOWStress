@@ -16,7 +16,7 @@ default    ,
 0, 180, 90
 *WFR (Wave frequency range) 
 ** Min, max, interval
-0.01, 3.5, 0.05
+0.01, 3.0, 0.05
 *UNA0 (unit system in Abaqus model for Wamit transform) 
 ** m (default) or mm 
 default,
