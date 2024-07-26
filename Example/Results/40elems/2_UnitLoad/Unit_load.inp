@@ -1,0 +1,98 @@
+*STEP, NAME=Unit_load, NLGEOM=YES, PERTURBATION
+*STATIC
+ , 1,  , 
+*LOAD CASE, Name = Mooring_tension_FP1_Fx
+*CLOAD
+44125, 1, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP1_Fy
+*CLOAD
+44125, 2, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP1_Fz
+*CLOAD
+44125, 3, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP2_Fx
+*CLOAD
+13741, 1, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP2_Fy
+*CLOAD
+13741, 2, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP2_Fz
+*CLOAD
+13741, 3, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP3_Fx
+*CLOAD
+65920, 1, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP3_Fy
+*CLOAD
+65920, 2, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Mooring_tension_FP3_Fz
+*CLOAD
+65920, 3, 1.00
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_x
+*DLOAD
+ALLEL, GRAV, 1.00, 1, 0, 0
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_y
+*DLOAD
+ALLEL, GRAV, 1.00, 0, 1, 0
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_z
+*DLOAD
+ALLEL, GRAV, 1.00, 0, 0, 1
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_rx
+*DLOAD
+ALLEL, ROTA, 1.00, 0, 0, -6937, 1, 0, 0
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_ry
+*DLOAD
+ALLEL, ROTA, 1.00, 0, 0, -6937, 0, 1, 0
+*END LOAD CASE
+*LOAD CASE, Name = Acceleration_rz
+*DLOAD
+ALLEL, ROTA, 1.00, 0, 0, -6937, 0, 0, 1
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_Fx
+*CLOAD
+15528, 1, 1.00 
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_Fy
+*CLOAD
+15528, 2, 1.00 
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_Fz
+*CLOAD
+15528, 3, 1.00 
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_Mx
+*CLOAD
+15528, 4, 1.00 
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_My
+*CLOAD
+15528, 5, 1.00 
+*END LOAD CASE
+*LOAD CASE, Name = ToewrBase_Mz
+*CLOAD
+15528, 6, 1.00 
+*END LOAD CASE
+*Output, history
+*EL Print, ELSET=ELSET40-Pontoon-SideCol, Position = Centroidal
+S11,S22,S12
+*EL Print, ELSET=ELSET40-Pontoon-CenCol, Position = Centroidal
+S11,S22,S12
+*Output, field
+*Element output
+S,E
+*Node output
+U,RF
+*End step
