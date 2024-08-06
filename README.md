@@ -2,4 +2,4 @@ FLOWStress is a S/W that can generate stress time series in substructures of flo
 
 We developers of SOSEL at INHA University have technically verified that FLOWStress results are equivalent to transient response FEA results, so many researchers can use FLOWStress with high confidence.
 
-site map : [INHA-SOSEL/FLOWStress](https://github.com/INHA-SOSEL/FLOWStress)
+[INHA-SOSEL/FLOWStress](https://github.com/INHA-SOSEL/FLOWStress)
