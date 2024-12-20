@@ -49,9 +49,9 @@ default,
 ** Stress(S), strain(E), displacement(U), and/or reaction force(RF). (default : ALL)
 S, E, RF, U
 ************* Keywords used in '3 NodalStress' & '5 StressCom' modules  *******************
-*STIM (Sampling time from OpenFAST OUT file)
-** Default : OpenFAST output time increment
-default,
+*SFQ (Sampling frequency from OpenFAST OUT file)
+** Default : 1 (Same with OpenFAST output time increment), Use natural numbers
+1
 *SCI (Stress cut-in time in s)
 ** Default: 0s
 default,

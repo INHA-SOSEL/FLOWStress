@@ -7,7 +7,7 @@
 ************************** ABA2WAMIT **************************
 *WDEP (Water depth)
 ** Default : infinite depth
-150,
+150  ,
 *GRAV (Gravity acceleration)
 ** Default : 9.80655
 default    ,
@@ -16,10 +16,10 @@ default    ,
 0, 180, 90
 *WFR (Wave frequency range) 
 ** Min, max, interval
-0.01, 3.0, 0.05
+0.01, 3.5, 0.05
 *UNA0 (unit system in Abaqus model for Wamit transform) 
 ** m (default) or mm 
-mm,
+mm  ,
 *FAB0 (Abaqus INP file for Wamit transform)
 D:\Example\WAMIT\VolturnUS-S.inp
 *A2W (path for ABA2WAMIT.exe) 
@@ -28,8 +28,8 @@ C:\Program Files\Common Files\FlowStress\ABA2WAMIT\ABA2WAMIT.exe
 *ELSETA (ELSET for all massive elements)
 ALLEL
 *ELSETS (ELSET for stress recovery elements)
-ELSET40-Pontoon-CenCol
 ELSET40-Pontoon-SideCol
+ELSET40-Pontoon-CenCol
 *ELSETD (ELSET for diffraction elements)
 DIFF
 *NSET1 (NSET for fairlead nodes)
@@ -49,9 +49,9 @@ default,
 ** Stress(S), strain(E), displacement(U), and/or reaction force(RF). (default : ALL)
 S, E, RF, U
 ************* Keywords used in '3 NodalStress' & '5 StressCom' modules  *******************
-*STIM (Sampling time from OpenFAST OUT file)
-** Default : OpenFAST output time increment
-default,
+*SFQ (Sampling frequency from OpenFAST OUT file)
+** Default : 1 (Same with OpenFAST output time increment), Use natural numbers
+4
 *SCI (Stress cut-in time in s)
 ** Default: 0s
 default,
@@ -76,12 +76,12 @@ SCR
 *SNC (S-N Curve)
 ** ELSET, m1, log(a1), m2, log(a2)
 ** for single linear, fill up m1 & a1
-ELSET40-Pontoon-CenCol, 3.0, 12.164, 5.0, 15.606
-ELSET40-Pontoon-SideCol,3.0, 12.164, 5.0, 15.606
+Simple_ELSET_TowerFloaterInterface, 3.0, 12.164, 5.0, 15.606
+Simple_ELSET_PontoonConnection,     3.0, 11.764, 5.0, 15.606
 *SFF (safety factor of fatigue = design fatigue factor)
 ** ELSET, m1, value
-ELSET40-Pontoon-CenCol,  3
-ELSET40-Pontoon-SideCol, 3
+Simple_ELSET_TowerFloaterInterface, 1
+Simple_ELSET_PontoonConnection, 3
 *LIF (design life in year) 
 ** Default : 20
 DEFAULT,
@@ -92,15 +92,15 @@ DEFAULT,
 0.33
 ************* Keywords used in '6 Fatigue' module with Refined analysis ******
 *EXT (Thickness effect exponent for refined analysis)
-ELSET40-Pontoon-CenCol,  0.2
-ELSET40-Pontoon-SideCol, 0.2
+Simple_ELSET_TowerFloaterInterface, 0.2
+Simple_ELSET_PontoonConnection, 0.2
 *HSP (Hotspots)
 **Hotpsot type, Element ID, ElementID, ...
 ** See manual for hotspot types. The number of elements for hotspot stress depends on the hotspot types
-     1, 1620460, 1620459, 1620457, 1620458, 1620461, 1620598, 1620514, 1620456
-     2, 1620435, 1620688, 1620683, 1620687
-     3, 876038, 876037, 876039, 880541
-	 5, 876034, 876033
+     1, 73846,     73847,     73848,     73849,     73898,     73899,     73900,     73901
+     3, 72732,     72733,     72736,     72737
+     3, 72732,     72733,     72736,     72737
+	 4, 72736,     72737
 ***********************************Path**************************************	
 *FMOR (File path for OpenFAST MoorDyn DAT file)
 D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_MoorDyn.dat
@@ -115,10 +115,10 @@ D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn2.dat
 D:\Example\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn3.dat
 *FAB1 (Abaqus INP file for stress analysis)
 ** This Abaqus INP file is reference file, so it must not include HISTORY part but only MODEL part.
-D:\Example\Abaqus\FEA_model.inp
+D:\Example\ABAQUS\FEA_model.inp
 *DWAM (Path for Wamit files)
 **Wamit input and output files should be in a same folder
-D:\Example\Wamit
+D:\Example\WAMIT
 *DFLO (Path where FLOWStress generates results)
-D:\Example\Results\40elems
+D:\Example\Results\Elms40
 *****************************************************************************
