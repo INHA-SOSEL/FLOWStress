@@ -120,5 +120,5 @@ D:\Example\ABAQUS\FEA_model.inp
 **Wamit input and output files should be in a same folder
 D:\Example\WAMIT
 *DFLO (Path where FLOWStress generates results)
-D:\Example\Results\Elms40
+D:\Example\Results\40elems
 *****************************************************************************
