@@ -1,0 +1,19 @@
+*****Keywords for Module 2 StaticLoad**********************************
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*UNABS (Unit system of FEA seed file)
+2,
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*ELSETA (Element set containing all massive elements which contribute the mass of structures)
+ALLEL,
+*ELSETD (Element set  containing diffraction elements)
+DIFF,
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*CPU (The number of CPUs for FEA analysis)
+,
+*OFO (ODB field output option)
+S, E, U, RF,
+**********************************************************************

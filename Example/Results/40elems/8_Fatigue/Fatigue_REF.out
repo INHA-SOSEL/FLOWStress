@@ -1,0 +1,10 @@
+*Fatigue damage
+
+*Analysis time [sec]
+600
+
+*Design life [years]
+20
+
+       Element ID,         Case 1,         Case 2,         Case 3,   Total damage(%)
+               1,     1.7267E-010,     4.3971E-010,     3.9034E-010,     3.4989E-004,

@@ -1,0 +1,25 @@
+*****Keywords for Module 5 HydroLoad using NEMOH**********************************
+*FRAC (Frequency response analysis code)
+2,
+*DFRA (Folder path for frequency response analysis model and result files)
+D:\98-FLOWStress\Nemoh
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*UNABS (Unit system of FEA seed file)
+2,
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*ELSETD (Element set  containing diffraction elements)
+DIFF,
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*EXP (Pressure mapping exponent) 
+2,
+*PTA (Pressure mapping tolerance angle (deg) to identify elements in a same plane) 
+2,  
+*CPU (The number of CPUs for FEA analysis)
+2,  
+*OFO (ODB field output option)
+S, E, RF, U,
+***********************************************************************

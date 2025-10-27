@@ -1,0 +1,25 @@
+*****Keywords for Module 5 HydroLoad using WAMIT**********************************
+*FRAC (Frequency response analysis code)
+1,
+*DFRA (Folder path for frequency response analysis model and result files)
+D:\98-FLOWStress\Wamit
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*UNABS (Unit system of FEA seed file)
+,
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*ELSETD (Element set  containing diffraction elements)
+DIFF,
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*EXP (Pressure mapping exponent)
+,
+*PTA (Pressure mapping tolerance angle (deg) to identify elements in a same plane)
+,
+*CPU (The number of CPUs for FEA analysis)
+1,
+*OFO (ODB field output option)
+S, E, RF, U,
+***********************************************************************

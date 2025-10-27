@@ -1,0 +1,15 @@
+*****Keywords for Module 7 Buckling*****************
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*FABB (FEA element set file in which identified buckling panels are defined)
+D:\98-FLOWStress\FEA_seed\FEA_seed_BucklingPre.inp
+*ELSETB (Element set containing identified buckling panels)
+UP_00001,
+UP_00002,
+*UNABS (Unit system of FEA model containing seed model)
+2,
+*CDIA (Column diameter)
+,
+*PANG (Buckling panel tolerance angle in degrees)
+,
+***********************************************************************

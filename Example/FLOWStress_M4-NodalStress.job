@@ -1,0 +1,19 @@
+*****Keywords for Module 4 NodalStress**********************************
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*UNABS (Unit system of FEA seed file)
+2,
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*FOO (OpenFAST OUT file(s))
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi1.out,
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi2.out,
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi3.out,
+*WUP (Warm-up period to be removed in OpenFAST results)
+0,
+*SFQ (Sampling frequency for stress history)
+1,
+***********************************************************************

@@ -1,0 +1,13 @@
+*****Keywords for Module 1 BucklingPre**********************************
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*UNABS (Unit system of FEA seed file)
+2,
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*CDIA (Column diameter)
+10000,
+*PANG (Buckling panel tolerance angle in degrees)
+5,
+***********************************************************************

@@ -1,0 +1,20 @@
+*****Keywords for Module 0 Frequency response analysis using Nemoh*****************
+*FRAC (Frequency response analysis code)
+2,
+*FAB0 (FEA model file for FRA transform)
+D:\98-FLOWStress\Nemoh\FRA.inp
+*UNA0 (Unit system in FEA model for FRA transform) 
+,
+*WINC (Wave incident angle) 
+0, 180, 90
+*WFR (Wave frequency range) 
+0.01, 3.5, 0.05
+*WDEP (Water depth)
+150  ,
+*GRAV (Gravity acceleration)
+,
+*COG (Center of gravity)
+0, 0, -6.937
+*FA2N (path for ABA2NEMOH.exe) 
+C:\Program Files\Common Files\FLOWStress\ABA2NEMOH\ABA2NEMOH.exe
+***********************************************************************

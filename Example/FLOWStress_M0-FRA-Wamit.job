@@ -1,0 +1,20 @@
+*****Keywords for Module 0 Frequency response analysis using Wamit*****************
+*FRAC (Frequency response analysis code)
+1,
+*FAB0 (FEA model file for FRA transform)
+D:\98-FLOWStress\Wamit\FRA.inp
+*UNA0 (Unit system in FEA model for FRA transform) 
+,
+*WFR (Wave frequency range) 
+0.01, 3.5, 0.05,
+*WINC (Wave incident angle) 
+0, 180, 90,
+*WDEP (Water depth)
+150,
+*GRAV (Gravity acceleration)
+,
+*COG (Center of gravity)
+0, 0, -6.937,
+*A2W (path for ABA2NEMOH.exe) 
+C:\Program Files\Common Files\FLOWStress\ABA2WAMIT\ABA2WAMIT.exe
+***********************************************************************

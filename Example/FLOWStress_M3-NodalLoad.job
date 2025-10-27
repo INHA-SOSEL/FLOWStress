@@ -1,0 +1,25 @@
+*****Keywords for Module 3 NodalLoad**********************************
+*FMOR (OpenFAST MoorDyn DAT file)
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_MoorDyn.dat
+*FABS (FEA seed file)
+D:\98-FLOWStress\FEA_seed\FEA_seed.inp
+*DFLO (Folder path where FLOWStress generates results)
+D:\98-FLOWStress\job
+*UNABS (Unit system of FEA seed file)
+2,
+*NSET1 (Node set cobtaining fairlead nodes)
+NSETF,
+*NSET2 (Node set containing a tower base node)
+NSETT,
+*ELSETA (Element set containing all massive elements which contribute the mass of structures)
+ALLEL,
+*ELSETS (Element set containing elements with stress printed)
+ELSET40-Pontoon-SideCol,
+ELSET40-Pontoon-CenCol,
+*COG (Center of gravity)
+0, 0, -6.937,
+*CPU (The number of CPUs for FEA analysis)
+2,
+*OFO (ODB field output option)
+S, E, RF, U,
+***********************************************************************
