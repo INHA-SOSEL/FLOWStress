@@ -19,11 +19,11 @@ ELSET40-Pontoon-CenCol
 *SRO (Stress print option according to load sources)
 , , , ,  
 *FOO (OpenFAST OUT file(s))
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi1.out,
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi2.out,
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi3.out,
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi1.out
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi2.out
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi3.out
 *FHYD (OpenFAST HydroDyn DAT file(s))
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn1.dat,
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn2.dat,
-D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn3.dat,
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn1.dat
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn2.dat
+D:\98-FLOWStress\OpenFAST\IEA-15-240-RWT-UMaineSemi_HydroDyn3.dat
 ***********************************************************************
